@@ -38,6 +38,10 @@ public class TimeClient {
 						new String(receivePacket.getData(),0,receivePacket.getLength(),"UTF-8");
 				System.out.println(message);
 				System.out.println("");
+				System.out.println("");
+				System.out.println("");
+				System.out.println("");
+				
 			}
 			
 		} catch (SocketException e){
